@@ -55,7 +55,9 @@ def event(data):
                 f"👤 <b>الاسم:</b> {name}\n"
                 f"💵 <b>المبلغ:</b> {amount}$\n\n"
                 f"💬 <b>الرسالة:</b>\n"
-                f"<blockquote>{msg}</blockquote>"
+                f"<blockquote>{msg}</blockquote>\n\n"
+                f"🤍 لتقديم الدعم:\n"
+                f"https://tip.dokan.sa/hololnet"
             )
 
             print(text)
@@ -77,3 +79,4 @@ def connect_streamlabs():
 
 if __name__ == "__main__":
     connect_streamlabs()
+
